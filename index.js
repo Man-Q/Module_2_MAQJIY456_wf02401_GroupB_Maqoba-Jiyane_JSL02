@@ -46,7 +46,7 @@ const addNewGoal = () => {
             // Check if the input goal matches any existing goal in the list
             if(goalInput === listElements[i].innerText){
                 // If a duplicate is found, alert the user
-                alert('duplicate found');
+                alert('Goal already exists!');
                 return; // Exit the function
             }
         }
